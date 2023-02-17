@@ -79,7 +79,7 @@ Content-Type: application/json
 Accept: application/json
 ```
 
-CREATE new office
+Create new office
 ```http request
 POST http://localhost:8887/api/v1/companies/<id>/offices
 Content-Type: application/json
