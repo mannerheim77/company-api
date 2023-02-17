@@ -56,8 +56,12 @@
 </details>
 
 ## Sample API Requests
+<details>
+<summary>Sample API Requests</summary><br/>
+
+Create new company
+
 ```http request
-### CREATE new company
 POST http://localhost:8887/api/v1/companies
 Content-Type: application/json
 Accept: application/json
@@ -65,15 +69,18 @@ Accept: application/json
 {
   "name": "Craigs Company"
 }
+```
 
+Get all companies
 
-### Get all companies 
+```http request
 GET http://localhost:8887/api/v1/companies
 Content-Type: application/json
 Accept: application/json
+```
 
-
-### CREATE new office
+CREATE new office
+```http request
 POST http://localhost:8887/api/v1/companies/<id>/offices
 Content-Type: application/json
 Accept: application/json
@@ -81,13 +88,17 @@ Accept: application/json
 {
   "name" : "Dallas Office"
 }
+```
 
-### Get offices for given company
+Get offices for given company
+```http request
 GET http://localhost:8887/api/v1/companies/<id>/offices
 Content-Type: application/json
 Accept: application/json
+```
 
-### CREATE new office employee
+Create new office employee
+```http request
 POST http://localhost:8887/api/v1/offices/<id>/employees
 Content-Type: application/json
 Accept: application/json
