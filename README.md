@@ -4,7 +4,7 @@
 
 ## Technologies
 <details>
-<summary>Major technologies used in this app</summary>
+<summary>Major technologies used in this app</summary><br/>
 
 - **Spring Web MVC** - for building annotation-driven RESTful APIs:
   - ```CompanyController.java``` - for retrieving and creating companies and offices
@@ -30,7 +30,7 @@
 
 ##  Instructions
 <details>
-<summary>Installation and Startup Instructions</summary>
+<summary>Installation and Startup Instructions</summary><br/>
 
 1. Clone this repo.
 2. Pull the latest Postgres Docker image:
